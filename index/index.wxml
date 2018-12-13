@@ -1,0 +1,13 @@
+<view class="intro">欢迎使用代码片段，可在控制台查看代码片段的说明和文档</view>
+
+
+<view class='user' wx:for="{{users}}" wx:key="item.id" style="background: {{item.background}}" >
+  <image class="avatar" src="{{item.avatar}}" mode="aspectFit" lazy-load="false"></image>
+  <!-- <image class="" src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+    
+  </image> -->
+  <view> {{item.name}}</view>
+  <view class="" hover-class="none" hover-stop-propagation="false">
+     {{item.content}}
+  </view>
+</view>

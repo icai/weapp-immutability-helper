@@ -1,0 +1,19 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+
+.user {
+  padding: 30rpx;
+  /* height: 200rpx; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: #ccc;
+  border-top:1px solid #123123
+}
+
+.avatar {
+  width: 200rpx;
+  height: 200rpx;
+}
